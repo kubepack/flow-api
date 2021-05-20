@@ -1,0 +1,16 @@
+domain: x-helm.dev
+layout:
+- go.kubebuilder.io/v3
+multigroup: true
+projectName: flow-api
+repo: kubepack.dev/flow-api
+resources:
+- api:
+    crdVersion: v1
+    namespaced: true
+  domain: x-helm.dev
+  group: module
+  kind: Flow
+  path: kubepack.dev/flow-api/apis/module/v1alpha1
+  version: v1alpha1
+version: "3"
